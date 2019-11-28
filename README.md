@@ -1,6 +1,6 @@
 # black.vim
 
-This is an easily installable adaptation of `black.vim` integration of [Black](https://github.com/psf/black).
+This is an easy to install Vim plugin for  [Black](https://github.com/psf/black) code formatter.
 
 
 ## Install
@@ -9,22 +9,27 @@ Use your favorite plugin manager.
 
 [vim-plug](https://github.com/junegunn/vim-plug):
 
+```vim
 Plug 'igorpejic/vim-black'
+```
+ 
+or
 
-[VundleVim](https://github.com/VundleVim/Vundle.vim)
+[VundleVim](https://github.com/VundleVim/Vundle.vim):
 
+```vim
 Plugin 'igorpejic/vim-black'
+```
 
 
 ## Settings
 
-### Autosave
+### Run on save
 
-Add this to your `~/.vimrc`:
-```vimrc
+To run black on every save, add this to your `~/.vimrc`:
 
+```vim
 autocmd BufWritePost *.py execute ':Black'
-
 ```
 
 ## Thanks
