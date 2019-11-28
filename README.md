@@ -1,6 +1,6 @@
 # black.vim
 
-This is an easy to install Vim plugin for  [Black](https://github.com/psf/black) code formatter.
+This is an easy to install Vim integration for  [Black](https://github.com/psf/black) code formatter I use.
 
 
 ## Install
